@@ -7,19 +7,20 @@ int endY = 150;
 void setup()
 {
   size(300,300);
-  strokeWeight(1);
+  strokeWeight(3);
   background(0);
 }
 
 void draw()
 {
 
-//spray can
+	//spray can
 	rect(0,120,20,50);
 	arc(20,130,10,10,PI/2,3*PI/2);
 	rect(-5,160,35,30,7);
 	rect(-5,170,45,130);
-	stroke((int)(Math.random()*100),(int)(Math.random()*100),(int)(Math.random()*100));
+
+	stroke((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
 
 
 		while (endX <=300) 
